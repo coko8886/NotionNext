@@ -99,16 +99,24 @@ export const Footer = props => {
 
         {/* 底部版权信息相关 */}
 
-<div className='mt-12 border-t border-[#8890A4] border-opacity-40 py-8 lg:mt-[60px]'>
-  <div className='container'>
-    <div className='-mx-4 flex flex-wrap'>
-      <div className='w-full px-4'>
-        <div className='my-1 flex justify-center'>
-          <p className='text-base text-gray-7'>
-            © 2025-2026 我的博客
-          </p>
-        </div>
-      </div>
+<div className='w-full px-4 md:w-2/3 lg:w-1/2'>
+  <div className='my-1'>
+    <div className='-mx-3 flex items-center justify-center md:justify-start'>
+      <Link
+        href='/my-privacy-policy'
+        className='px-3 text-base text-gray-7 hover:text-white hover:underline'>
+        我的隐私政策
+      </Link>
+      <Link
+        href='/my-legal-notice'
+        className='px-3 text-base text-gray-7 hover:text-white hover:underline'>
+        我的法律声明
+      </Link>
+      <Link
+        href='/my-terms'
+        className='px-3 text-base text-gray-7 hover:text-white hover:underline'>
+        我的服务条款
+      </Link>
     </div>
   </div>
 </div>
