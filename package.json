@@ -1,16 +1,16 @@
 {
-  "name": "123",
-  "version": "123",
+  "name": "blog",
+  "version": "blog",
   "homepage": "girlai.zone.id",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tangly1024/NotionNext.git"
+    "url": "girlai.zone.id"
   },
   "author": {
     "name": "tangly",
-    "email": "mail@tangly1024.com",
-    "url": "http://tangly1024.com"
+    "email": "girlai.zone.id",
+    "url": "girlai.zone.id"
   },
   "scripts": {
     "dev": "next dev",
@@ -72,7 +72,7 @@
     "axios": ">=0.21.1"
   },
   "bugs": {
-    "url": "https://github.com/tangly/NotionNext/issues",
-    "email": "tlyong1992@hotmail.com"
+    "url": "girlai.zone.id",
+    "email": "girlai.zone.id"
   }
 }
